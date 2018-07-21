@@ -1,0 +1,121 @@
+/* WEBSITE STYLE SHEET */
+
+#mountains {
+    background:url('mountains.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#gameOver{
+    display: none;
+}
+
+#stats, #gameOver {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 5px 1px 10px black;
+}
+
+#container {
+    position: relative;
+}
+
+#menu{
+    border: 3px solid grey;
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 600px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px 0 20px;
+}
+#menu-title{
+    
+}
+#menu-content li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+#menu-content img{
+    width: 80px;
+    height: 80px;
+}
+#menu-content{
+    
+}
+#menu-btn{
+    width: 75px;
+    height: 50px;
+}
+
+#test {
+    display: none;
+}
+
+.boulder {
+    background: url('boulder2.jpeg') center center no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%; 
+}
+
+#player-container{
+    width: 100px;
+    height: 130px;
+    
+    position: absolute;
+    left: 450px;
+    top: 400px;
+}
+
+.player {
+    background-color: black;
+    width: 99px;
+    height: 99px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    left: 450px;
+    top: 400px;
+    
+    
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    
+    background: url('sprite.png') 5.7px -1px no-repeat;
+}
+
+.hitPlayer {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    
+    background: url('sprite.png') -92px -1px no-repeat;
+}
+
+footer {
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}

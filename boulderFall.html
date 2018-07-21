@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Boulder Fall</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="healthBar.css">
+    </head>
+    <body id="mountains">
+        <h1 id="stats">Dodged:&nbsp;<span id="dodged">0</span> - Hit:&nbsp;<span id="hit">0</span></h1>
+        <h1 id="gameOver">Game Over!</h1>
+        <div id="container">
+            <div id="test" class="boulder"></div><!--This is hidden: only used for tests-->
+            <div id="player-container">
+                <div id="player" class="player"></div>
+                <div id="health-container">
+                    <div id="health-bar"></div>
+                </div>
+            </div>
+            
+            <!-- Menu -->
+            <div id="menu">
+                <h1 id="menu-title">Boulder Fall</h1>
+                <div id="menu-content">
+                    <p>Using the left and right arrow keys, move across the screen and dodge
+                       as many boulders as you can. Press the "s" key to start playing.</p>
+                    <p>When the game is over, just refresh the 
+                       page to restart.</p>
+                </div>
+            </div>
+            
+            <!-- Music: -->
+            <audio id="music">
+                <source src="bensound-extremeaction.mp3" type="audio/mpeg">
+                <!--<source src="" type="audio/ogg" loop>-->
+            </audio>
+            
+            <!-- Sound: http://www.freesfx.co.uk/-->
+            <audio id="boulderHit">
+                <source src="boulder_impact_from_catapult_or_trebuchet.mp3" type="audio/mpeg">
+                <!--<source src="" type="audio/ogg" loop>-->
+            </audio>
+            
+            <!-- JavaScript files -->
+            <script src="library_healthBar.js"></script>
+            <script src="movePlayer_library.js"></script>
+            <script src="boulder_library.js"></script>
+            <script src="boulderFall.js"></script>
+        </div>
+        
+        <!--<footer>Boulder Fall &copy; 2017 Designed and Developed by Joshua Whipple</footer>-->
+    </body>
+</html>
